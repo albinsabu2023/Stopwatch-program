@@ -1,0 +1,9 @@
+.c-1{
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+#cel,#far{
+    margin: 30px;
+}

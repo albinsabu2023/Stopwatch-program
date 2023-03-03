@@ -1,0 +1,13 @@
+body{
+color:white;
+background-color: gray;
+}
+#div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    box-shadow: 0px,10px,60px ,rgba(0,0,0.1);
+    border: 1px solid;
+   
+}

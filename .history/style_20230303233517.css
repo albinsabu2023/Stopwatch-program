@@ -1,0 +1,49 @@
+.container{
+    background-color: rgb(41, 40, 40);
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 40px;
+    border: 2px solid rgb(5, 204, 249);
+    
+}
+.button{
+    background-color: rgb(148, 193, 233);
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+#start,#reset,#pause{
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: rgb(29, 29, 29);
+    height: 20px;
+    width: 50px;
+    color: white;
+    font-family: consolas, monospace;
+}
+#time{
+    font-size:60px;
+    color:greenyellow;
+    font-family:consolas, monospace;
+
+}
+#start:hover,
+#reset:hover,
+#pause:hover {
+   
+    background-color: rgb(91, 90, 90);
+    height: 20px;
+    width: 50px;
+    
+    color: white;
+    transition-duration: 1000;
+}
